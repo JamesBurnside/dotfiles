@@ -1,6 +1,7 @@
 [user]
   name = James Burnside
   email = 2684369+JamesBurnside@users.noreply.github.com
+  username = JamesBurnside
 [alias]
   st = status
   dad = !curl https://icanhazdadjoke.com/ && git add
@@ -19,6 +20,8 @@
   ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
   ld = log --pretty=format:"%C(yellow)%h\\ %C(green)%ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short --graph
   ls = log --pretty=format:"%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
+[core]
+	editor = code --wait
 [color]
   diff = auto
   status = auto
